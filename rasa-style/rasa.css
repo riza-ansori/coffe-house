@@ -1,0 +1,238 @@
+/* 
+This css is only for templates created by the Rasa Logi team.
+author : RASA Logi team
+template name : Coffe shop 
+*/
+
+.bg-brown-coffe {
+    background-color: #dca57d !important;
+}
+.brown-coffe {
+    color: #dca57d !important;
+}
+.btn-brown-coffe {
+    background-color: #dca57d !important;
+    color: #fff;
+}
+.borrad-0 {
+    border-radius: 0;
+}
+.text-bold {
+    font-weight: bold;
+}
+.bg-black {
+    background-color: #000 !important;
+}
+.text-light {
+    color: #fff !important;
+}
+.px-10-persen {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.title-section {
+    padding-bottom: 10px;
+    line-height: 1.5;
+    font-size: 42px;
+}
+.fixed-nav {
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+}
+blockquote {
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    margin: 10px 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: left;
+    quotes: none;
+    box-sizing: border-box;
+    font-weight: 400;
+    color: #dca57d;
+}
+blockquote:after, blockquote:before {
+    content: '"';
+}
+blockquote>* {
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    line-height: inherit;
+    margin: 0;
+    display: inline;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+}
+h1, h2, h3, h4, h5, h6, .logo {
+    font-family: 'Oswald', sans-serif;
+}
+a {
+    color: #dca57d;
+    text-decoration: none;
+}
+p:last-child {
+    margin-bottom: 0;
+}
+.btn {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+.wrapp-banner-img {
+    min-height: 450px;
+    height: 100vh;
+    position: relative;
+}
+
+img.img-full {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.content-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(151, 112, 84, 0.55);
+}
+.title-banner {
+    font-size: 60px;
+}
+section {
+    padding: 70px 0;
+}
+.wrap-bg-image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+}
+.right-0 {
+    right: 0 !important;
+    left: auto !important;
+}
+.h-50 {
+    min-height: 50vh;
+}
+.w-650 {
+    max-width: 650px;
+}
+.opacity-5 {
+    opacity: .5;
+}
+.opacity-3 {
+    opacity: .3;
+}
+.left-footer {
+    background-image: url(../img/bacground-coffebag.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blurb img {
+    max-width: 100%;
+}
+.wrap-video-player {
+    display: flex;
+    width: 100%;
+}
+.wrap-video-player iframe {
+    width: 100%;
+    height: 768px;
+}
+.height-50 {
+    height: 50vh;
+    min-height: 450px;
+    overflow: hidden;
+}
+.height-70{
+    height: 70vh;
+    min-height: 300px;
+    overflow: hidden;
+}
+.wrap-maps {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.wrap-maps iframe {
+    width: 100%;
+}
+.img-container {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 16px;
+    overflow: hidden;
+}
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+article {
+    margin-bottom: 32px;
+}
+.wrap-maps iframe {
+    width: 100%;
+}
+
+/* header */
+header#main-header {
+    box-shadow: 0 0 30px rgba(7,51,84,0.17);
+}
+.nav-link {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: .3s ease-in-out;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+}
+.logo {
+    color: #fff;
+}
+.nav-link:hover {
+    color: #dca57d;
+}
+
+section {
+    position: relative;
+}
+
+/* sidebar */
+.widget{
+    margin-bottom: 32px;
+}
+.lates-post .img-container {
+    height: 80px;
+    margin-bottom: 0;
+    padding-right: 10px;
+}
+.widget ul {
+    list-style-type: none;
+    padding: 0;
+}
+.list-lates-post li {
+    margin-bottom: 12px;
+}
+.title-widget {
+    margin-bottom: 20px;
+}
+
