@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet" >
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Oswald:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/5982fa9774.js" crossorigin="anonymous"></script>
+    <!-- Rasa logi style -->
+    <link href="./rasa-style/rasa.css" rel="stylesheet" >
+
+    <title>Coffe Shop</title>
+  </head>
+  <body>
+    <header id="main-header" class="fixed-nav">
+        <div id="startchange" class="navbar-default">
+            <div class="container">
+                <nav class="d-flex flex-wrap justify-content-center py-3">
+                    <a href="./index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                        <span class="fs-4 logo">Coffe Shop</span>
+                    </a>
+            
+                    <ul class="nav nav-pills">
+                        <li class="nav-item"><a href="./index.html" class="nav-link" aria-current="page">Home</a></li>
+                        <li class="nav-item"><a href="./about.html" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="./blog.html" class="nav-link">Blog</a></li>
+                        <li class="nav-item"><a href="./contact.html" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section id="section-1" class="section-banner height-50 p-0">
+        <div class="wrapp-banner-img">
+            <img src="./img/contact-banner.jpg" class="img-full">
+        </div>
+        <div class="content-banner text-light">
+            <div class="container text-center">
+                <h1 class="title-banner">CONTACT US</h1>
+                <p class="subheader">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+            </div>
+        </div>
+    </section>
+    <section id="section-2" class="section-content py-0">
+        <div class="d-flex flex-wrap align-items-center">
+            <div class="col-md-6 col-12">
+                <div class="wrap-maps">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d988.223493193047!2d110.38897176652593!3d-7.801048748333228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a57e2d76c70a9%3A0x615d36d50a177a68!2sSolasta%20Coffee!5e0!3m2!1sid!2sid!4v1638502750156!5m2!1sid!2sid" width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <div class="col-md-6 col-12 py-5 px-10-persen bg-white">
+                <h2 class="title-section">GET IN TOUCH</h2>
+                <div class="wrap-contact-form">
+                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                        <div class="row">                            
+                            <div class="col-md-6 mb-3">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="name" name="name" class="form-control" placeholder="Your name">
+                                </div>
+                            </div> 
+                            <div class="col-md-6 mb-3">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="email" name="email" class="form-control" placeholder="Your email">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="phone" name="phone" class="form-control" placeholder="Your phone">
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">        
+                                <div class="md-form">
+                                    <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" placeholder="Your message"></textarea>
+                                </div>        
+                            </div>
+                        </div>
+                    </form>
+                    <div class="text-end">
+                        <a href="#" class="btn btn-brown-coffe text-bold borrad-0 mt-3">Send</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="bg-black text-light">
+        <div class="content-footer">
+            <div class="d-flex flex-wrap">
+                <div class="col-md-6 col-12 left-footer px-10-persen">
+                    <div class="py-md-5 py-4">
+                        <h2>Come on In!</h2>
+                        <div class="wrapper-opening-hours">
+                            <div id="opening-1" class="opening-hour">
+                                <h4 class="days brown-coffe">Weekdays</h4>
+                                <p class="hour">08PM -12AM</p>
+                            </div>
+                            <div id="opening-2" class="opening-hour">
+                                <h4 class="days brown-coffe">Weekends</h4>
+                                <p class="hour">12 PM – 02 AM</p>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-brown-coffe text-bold borrad-0 mt-4">View the Menu</button>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 right-footer px-10-persen">
+                    <div class="py-md-5 py-4">
+                        <h2>Contact</h2>
+                        <div class="wrapper-contact">
+                            <div id="phone" class="content-contact">
+                                <h4 class="days brown-coffe">PHONE</h4>
+                                <p class="hour">+(000) 111 222 333</p>
+                            </div>
+                            <div id="mail" class="content-contact">
+                                <h4 class="days brown-coffe">MAIL</h4>
+                                <p class="hour">address@domain.com</p>
+                            </div>
+                            <div id="address" class="content-contact">
+                                <h4 class="days brown-coffe">ADDRESS</h4>
+                                <p class="hour">
+                                    543 TN, doula street<br>
+                                    NY, New York</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="d-flex justify-content-between py-4">
+                <p id="copyright">Designed & Powered By <a href="https://ansoririza.my.id/">Ansori&nbsp;Riza</a> | Inc. All rights reserved.</p>
+                <ul id="social-module" class="list-unstyled d-flex">
+                  <li class="ms-3"><a class="brown-coffe" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                  <li class="ms-3"><a class="brown-coffe" href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li class="ms-3"><a class="brown-coffe" href="#"><i class="fab fa-instagram"></i></a></li>
+                  <li class="ms-3"><a class="brown-coffe" href="#"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="./bootstrap/js/bootstrap.bundle.min.js" ></script>
+    <script src="./rasa-style/rasa.js" ></script>
+  </body>
+</html>
